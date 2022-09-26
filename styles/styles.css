@@ -1,0 +1,75 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/*-------------------header-------------------*/
+
+.header {
+    background: #FFFFFF;
+}
+.header-navigation {
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.word-studio {
+    color: #000000;
+}
+.header-list {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121; 
+}
+.homepage {
+    color: #2196F3;
+}
+
+.link {
+}
+
+.header-mail {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.header-tel {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/*-------------------hero-------------------*/
+
+
+/*-------------------footer-------------------*/
