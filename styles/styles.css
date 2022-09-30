@@ -158,6 +158,68 @@ button {
   letter-spacing: 0.03em;
 }
 
+/*------------------- portfolio -------------------*/
+
+body {
+  color: #F5F5F5;
+}
+
+main {}
+
+.filter-list {}
+
+.filter-item {}
+
+.filter-btn {
+  border: 0;
+  border-radius: 0;
+  color: #212121;
+  background: #F5F4FA;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #FFFFFF;
+  background: #2196F3;
+}
+
+.btn-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project {}
+
+.project-list {
+  width: 370px;
+  height: 404px;
+}
+
+.project-list > img {
+  width: 370px;
+  height: 294px;  
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575; 
+}
+
 /*-------------------footer-------------------*/
 
 footer {
