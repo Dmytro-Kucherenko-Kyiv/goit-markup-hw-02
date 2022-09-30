@@ -1,140 +1,112 @@
 body { 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
-.link {
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.list {
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 /*-------------------header-------------------*/
 
 .header {
-    background: #FFFFFF;
-}
-.header-navigation {
-}
-.header-logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    cursor: pointer;
+  background: #FFFFFF;
 }
 
-.word-studio-1 {
-    color: #000000;
-}
-.header-list {
-}
-.list {
-}
-.header-item {
-}
-.header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    cursor: pointer; 
-}
+.header-navigation {}
 
-.portfolio {
-    color: #2196F3;
-}
-
-.header-mail {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.header-tel {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.header-mail:hover {
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196F3;
-  }
-
-.header-tel:hover {
-  color: #2196F3;
-  }
-
-/*-------------------hero-------------------*/
-
-.body {
-  color: #F5F5F5;
-}
-
-.main {
-}
-
-.filter-list {
-  background-color: #FFFFFF;
-}
-.filter-item {
-  width: 103px;
-  height: 38px;
-  border-radius: 4px;
-}
-
-
-.filter-btn:focus {
-  width: 103px;
-  height: 38px;
-  background: #F5F4FA ;
   cursor: pointer;
 }
 
-.filter-btn:hover {
-  background-color: #2196F3;
+.word-studio-1 {
+  color: #000000;
 }
 
-.btn-title {
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.header-list {}
+
+.header-item {}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  cursor: pointer; 
 }
 
-.btn-title:hover {
-  color: #F5F4FA;
-  }
+.portfolio{
+  color: #2196F3;
+}
 
-.all {
+.mail,
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mail:hover,
+.tel:hover {
+  color: #2196F3;
+}
+
+/*-------------------body-------------------*/
+
+body {
+  color: #F5F5F5;
+}
+
+main {}
+
+.filter-list {}
+
+.filter-item {}
+
+.filter-btn {
+  border: 0;
+  border-radius: 0;
+  color: #212121;
+  background: #F5F4FA;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #FFFFFF;
   background: #2196F3;
 }
 
-.all-title {
-  color: #FFFFFF;  
+.btn-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
+.project {}
 
 .project-list {
   width: 370px;
   height: 404px;
 }
 
-.project-img {
+.project-list > img {
   width: 370px;
-  height: 294px;
+  height: 294px;  
 }
 
 .project-name {
@@ -145,12 +117,7 @@ color: #212121;
   color: #212121;
 }
 
-.other {
-
-}
-
 .project-type {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -160,32 +127,27 @@ color: #212121;
 
 /*-------------------footer-------------------*/
 
-.c {
-    background: #2F303A;
+footer {
+  background: #2F303A;
 }
 
 .word-studio-2 {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.c-list {
+.contact-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.c-list-item {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.c-address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.adds {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
