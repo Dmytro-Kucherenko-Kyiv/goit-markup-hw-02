@@ -1,7 +1,13 @@
 body { 
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #FFFFFF;
 }
+
+:root{
+  color: #212121;
+  accent-color: #2196F3;
+}
+
 
 a {
   text-decoration: none;
@@ -26,8 +32,13 @@ ul {
   color: #2196F3;
 }
 
+.current (.studio, .portfolio): {
+  color: var(--accent-color);
+}
+
+
 .word-studio-1 {
-  color: #000000;
+  color: #212121;
 }
 
 .header-list {}
@@ -41,13 +52,10 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
-  cursor: pointer;  
+  color: var(--color);
 }
 
-.studio {
-  color: #2196F3;
-}
+
 
 .mail,
 .tel {
