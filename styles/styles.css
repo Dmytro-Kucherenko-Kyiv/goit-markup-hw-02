@@ -85,7 +85,10 @@ color: var(--primary-text-color);
   color: var(--white-color);
 }
 
-button {
+.banner-button {
+  border: 0;
+  border-radius: 0;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -131,10 +134,7 @@ button {
     color: var(--secondary-text-color);
 }
 
-.projects img {
-  width: 370px; 
-  height: 294px;
-}
+.projects img {}
 
 .team {
   background: var(--background-our-team);
@@ -142,25 +142,19 @@ button {
 
 .team-item {}
 
-.team img {
-  width: 270px;
-  height: 260px;
-}
-
 .team-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .team-position {
-  color: var(--primary-text-color);
-}
-
-.team-name > .team-position {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /*------------------- portfolio -------------------*/
@@ -178,6 +172,7 @@ main {
   border-radius: 0;
   color: var(--secondary-text-color);
   background: var(--background-our-team);
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -185,10 +180,11 @@ main {
 .filter-btn:visited,
 .filter-btn:visited {
   color: var(--white-color);
-  background: var(--accent-color)
+  background-color: var(--accent-color);
 }
 
 .btn-title {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -198,15 +194,7 @@ main {
 
 .project {}
 
-.project-list {
-  width: 370px;
-  height: 404px;
-}
-
-.project-list > img {
-  width: 370px;
-  height: 294px;  
-}
+.project-list {}
 
 .project-name {
   font-weight: 700;
@@ -238,7 +226,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-color);
 }
 
 .adds {
