@@ -1,13 +1,13 @@
 body { 
   font-family: 'Roboto', sans-serif;
-  background: #FFFFFF;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-color:  #FFFFFF;
+  --black-color: #000000;
+  --background-our-team: #F5F4FA;
+  --background-hero-footer: #2F303A;
+  --accent-color: #2196F3;
 }
-
-:root{
-  color: #212121;
-  accent-color: #2196F3;
-}
-
 
 a {
   text-decoration: none;
@@ -32,30 +32,27 @@ ul {
   color: #2196F3;
 }
 
-.current (.studio, .portfolio): {
-  color: var(--accent-color);
-}
-
-
-.word-studio-1 {
-  color: #212121;
-}
+.header-item{}
 
 .header-list {}
 
-.list {}
+.studio:visited,
+.portfolio:visited {
+  color: var(--accent-color)
+}
 
-.header-item {}
+.word-studio-1 {
+  color: var(--secondary-text-color);
+}
 
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color);
+  display:flex;
+  color: var(--secondary-text-color);
 }
-
-
 
 .mail,
 .tel {
@@ -63,18 +60,19 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .mail:hover,
 .tel:hover {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 /*-------------------hero-------------------*/
+
 .banner {
   width: 1600px;
-  background: #2F303A;
+  background: var(--background-hero-footer);
 }
 
 .banner-title {
@@ -84,7 +82,7 @@ color: #757575;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 
 button {
@@ -95,8 +93,8 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
-  background: #2196F3;
+  color: var(--white-color);
+  background: var(--accent-color);
   cursor: pointer; 
 }
 
@@ -108,19 +106,19 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .hero-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .hero,
 .projects {
-  background: #F5F5F5;
+  background: var(--background-our-team);
 }
 
 .projects-title,
@@ -130,7 +128,7 @@ button {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 
 .projects img {
@@ -139,7 +137,7 @@ button {
 }
 
 .team {
-  background: #F5F4FA;
+  background: var(--background-our-team);
 }
 
 .team-item {}
@@ -148,13 +146,14 @@ button {
   width: 270px;
   height: 260px;
 }
+
 .team-name {
   font-weight: 500;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .team-position {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .team-name > .team-position {
@@ -166,11 +165,9 @@ button {
 
 /*------------------- portfolio -------------------*/
 
-body {
-  color: #F5F5F5;
+main {
+  color: var(--background-our-team);
 }
-
-main {}
 
 .filter-list {}
 
@@ -179,15 +176,16 @@ main {}
 .filter-btn {
   border: 0;
   border-radius: 0;
-  color: #212121;
-  background: #F5F4FA;
-  cursor: pointer;
+  color: var(--secondary-text-color);
+  background: var(--background-our-team);
 }
 
 .filter-btn:hover,
-.filter-btn:focus {
-  color: #FFFFFF;
-  background: #2196F3;
+.filter-btn:focus,
+.filter-btn:visited,
+.filter-btn:visited {
+  color: var(--white-color);
+  background: var(--accent-color)
 }
 
 .btn-title {
@@ -215,24 +213,24 @@ main {}
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .project-type {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575; 
+  color: var(--primary-text-color); 
 }
 
 /*-------------------footer-------------------*/
 
 footer {
-  background: #2F303A;
+  background: var(--background-hero-footer);
 }
 
 .word-studio-2 {
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 
 .contact-item {
@@ -247,5 +245,5 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--white-color);
 }
