@@ -221,15 +221,18 @@ footer {
   color: var(--white-color);
 }
 
-.contact-item {
+.footer-mail,
+.footer-tel {
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .adds {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
